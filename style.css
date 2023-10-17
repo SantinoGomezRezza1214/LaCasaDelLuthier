@@ -1503,7 +1503,9 @@ iframe {
   padding-bottom: 50px;
 
   /*Tipografía y colores*/
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   /*Fondo y bordes*/
   border: none;
