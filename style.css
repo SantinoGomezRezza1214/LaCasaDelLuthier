@@ -389,6 +389,12 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+  .slide {
+  width: 60%;
+  }
+}
+
 .slide__bg {
 
   /*Posicionamiento*/
