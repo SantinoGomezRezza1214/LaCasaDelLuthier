@@ -1484,7 +1484,7 @@ a.slide__text-link:hover {
 
   /*Tipografía y colores*/
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4em;
   color: #FFF;
 
 }
@@ -1492,6 +1492,7 @@ a.slide__text-link:hover {
 .contact-header p {
 
   /*Tipografía y colores*/
+  font-size: 3em;
   color: #868c96;
 
 }
