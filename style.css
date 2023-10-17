@@ -1510,7 +1510,8 @@ a.slide__text-link:hover {
 
 iframe {
 
-  width: 70%;
+  width: 60%;
+  height: 60%;
 
   /*Modelo de caja*/
   padding-bottom: 50px;
