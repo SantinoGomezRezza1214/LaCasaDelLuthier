@@ -132,9 +132,6 @@ body {
   display: none;
   flex-direction: column-reverse;
 
-  align-self: flex-end; /* Alinea a la derecha */
-  margin-right: 300px;   /* Ajusta el margen derecho */
-
   /*Efectos y animaciones*/
   cursor: pointer;
   transition: transform 0.3s ease; 
