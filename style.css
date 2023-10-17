@@ -1474,6 +1474,7 @@ a.slide__text-link:hover {
 .contact-header h2 {
 
   /*Modelo de caja*/
+  padding-top: 50px;
   margin-bottom: 20px;
 
   /*Tipografía y colores*/
@@ -1486,7 +1487,7 @@ a.slide__text-link:hover {
 .contact-header p {
 
   /*Tipografía y colores*/
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: #868c96;
 
 }
