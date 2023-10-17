@@ -1628,7 +1628,9 @@ iframe {
 
 .footer {
 
-
+  /*Modelo de caja*/
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   /*Tipografía y colores*/
   color: #868c96;
