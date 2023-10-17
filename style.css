@@ -1215,7 +1215,7 @@ a.slide__text-link:hover {
   justify-content: center;
 
   /*Modelo de caja*/
-  width: min(1200px, 100%);
+  width: min(90%, 100%);
   margin: 0 auto;
   min-height: 100vh;
   padding-bottom: 150px;
