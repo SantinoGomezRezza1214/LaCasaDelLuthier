@@ -1613,7 +1613,7 @@ iframe {
 
   .contact-row {
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
   }
 
   .contact-info {
@@ -1631,6 +1631,11 @@ iframe {
   .contact-info-icon {
     width: 70px;
     height: 70px;
+  }
+
+  .contact-info-icon i {
+    font-size: 20px;
+    line-height: 70px;
   }
 
 }
