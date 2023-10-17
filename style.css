@@ -129,8 +129,7 @@ body {
 .menu-toggle {
 
   /*Posicionamiento*/
-  position: relative;
-  display: none;
+  display: flex;
   flex-direction: column-reverse;
 
   /*Efectos y animaciones*/
