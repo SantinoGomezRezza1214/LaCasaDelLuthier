@@ -1422,7 +1422,7 @@ a.slide__text-link:hover {
   z-index: 3;
 
   /* Modelo de caja */
-  padding: 35% 0;
+  padding: 5% 0;
 
   /* Fondo y bordes */
   background-color: #1f1f24;
@@ -1493,7 +1493,6 @@ a.slide__text-link:hover {
   justify-content: space-between;
 
   /*Modelo de caja*/
-  padding: 40px;
 
 }
 
