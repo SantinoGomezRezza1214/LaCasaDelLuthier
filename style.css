@@ -1066,7 +1066,7 @@ a.slide__text-link:hover {
   justify-content: center;
 
   /*Modelo de caja*/
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 50px;
   padding-bottom: 60px;
 
