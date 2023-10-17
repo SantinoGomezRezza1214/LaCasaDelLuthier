@@ -44,7 +44,6 @@ body {
 
   /*Posicionamiento*/
   position: fixed;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   top: 0;
