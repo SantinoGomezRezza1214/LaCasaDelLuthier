@@ -45,7 +45,7 @@ body {
   /*Posicionamiento*/
   position: fixed;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   top: 0;
   z-index: 10;
