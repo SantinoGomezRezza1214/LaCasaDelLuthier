@@ -133,7 +133,7 @@ body {
   flex-direction: column-reverse;
 
   align-self: flex-end; /* Alinea a la derecha */
-  margin-right: 20px;   /* Ajusta el margen derecho */
+  margin-right: 80px;   /* Ajusta el margen derecho */
 
   /*Efectos y animaciones*/
   cursor: pointer;
