@@ -76,9 +76,6 @@ body {
   display: flex;
   align-items: center;
 
-  /*Modelo de caja*/
-  margin: 0 1.5rem;
-
   /*Tipografía y colores*/
   font-size: 1rem;
   text-decoration: none;
