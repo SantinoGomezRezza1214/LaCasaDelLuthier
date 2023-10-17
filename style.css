@@ -1582,7 +1582,7 @@ iframe {
 
 /*------------------------------------------------------------*/
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1280px) {
   iframe {
     margin-bottom: 50px;
     width: 100%;
@@ -1590,7 +1590,7 @@ iframe {
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1280px) {
   .contact {
     padding: 10% 0;
   }
