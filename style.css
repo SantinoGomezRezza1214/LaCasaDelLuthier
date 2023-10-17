@@ -1508,7 +1508,7 @@ a.slide__text-link:hover {
 iframe {
 
   width: 60%;
-  height: 800px;
+  height: 900px;
 
   /*Modelo de caja*/
   padding-bottom: 50px;
@@ -1547,8 +1547,8 @@ iframe {
   align-items: center; 
 
   /*Modelo de caja*/
-  height: 140px;
-  width: 140px;
+  height: 70px;
+  width: 70px;
 
   /*Fondo y bordes*/
   background-color: #fff;
