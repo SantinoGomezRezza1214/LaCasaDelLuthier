@@ -1547,8 +1547,8 @@ iframe {
   align-items: center; 
 
   /*Modelo de caja*/
-  height: 70px;
-  width: 70px;
+  height: 140px;
+  width: 140px;
 
   /*Fondo y bordes*/
   background-color: #fff;
