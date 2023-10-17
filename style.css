@@ -1601,10 +1601,6 @@ iframe {
 }
 
 @media screen and (max-width: 1440px) {
-  .contact {
-    padding: 5% 0;
-  }
-
   .contact-header h2 {
     font-size: 2.5em;
     padding-bottom: 30px;
