@@ -1627,6 +1627,11 @@ iframe {
   .contact-info-content p {
     font-size: 1.1em;
   }
+  
+  .contact-info-icon {
+    width: 70px;
+    height: 70px;
+  }
 
 }
 
