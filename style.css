@@ -1422,7 +1422,7 @@ a.slide__text-link:hover {
   z-index: 3;
 
   /* Modelo de caja */
-  padding: 5% 0;
+  padding: 35% 0;
 
   /* Fondo y bordes */
   background-color: #1f1f24;
@@ -1501,11 +1501,6 @@ iframe {
 
   /*Modelo de caja*/
   padding-bottom: 50px;
-
-  /*Tipografía y colores*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   /*Fondo y bordes*/
   border: none;
