@@ -391,7 +391,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .slide {
-  width: 60%;
+    width: 100%;
+    max-width: 50%;
+    object-fit: cover;
   }
 }
 
