@@ -1431,7 +1431,6 @@ a.slide__text-link:hover {
 .contact {
 
   /* Posicionamiento */
-  position: relative;
   z-index: 3;
 
   /* Fondo y bordes */
@@ -1503,7 +1502,6 @@ a.slide__text-link:hover {
   justify-content: space-between;
 
   /*Modelo de caja*/
-  padding: 200px;
 
 }
 
