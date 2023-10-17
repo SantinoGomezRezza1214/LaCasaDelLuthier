@@ -258,59 +258,81 @@ body {
 /*------------------------------------------------------------*/
 
 .slider-pagi {
-  /* Posicionamiento */
+
+  /*Posicionamiento*/
   position: absolute;
   left: 50%;
   bottom: 2rem;
   z-index: 3;
+
+  /*Modelo de caja*/
   transform: translateX(-50%);
 
-  /* Tipografía y colores */
+  /*Tipografía y colores*/
   font-size: 0;
   list-style-type: none;
+
 }
 
 .slider-pagi__elem {
-  /* Posicionamiento */
+
+  /*Posicionamiento*/
   position: relative;
   display: inline-block;
   vertical-align: top;
 
-  /* Modelo de caja */
-  width: 4%; /* Utilizamos un porcentaje del ancho del contenedor */
+  /*Modelo de caja*/
+  width: 2.7rem;
   height: 0.5rem;
-  margin: 0 1%; /* Utilizamos un porcentaje para el margen */
+  margin: 0 0.5rem;
 
-  /* Fondo y bordes */
+  /*Fondo y bordes*/
   border: 2px solid rgba(255, 255, 255, 0.6);
 
-  /* Efectos y animaciones */
+  /*Efectos y animaciones*/
   cursor: pointer;
+
 }
 
 .slider-pagi__elem:before {
-  /* Posicionamiento */
+
+  /*Posicionamiento*/
   position: absolute;
   content: "";
   left: 50%;
   top: 50%;
 
-  /* Modelo de caja */
-  width: 100%; /* Utilizamos un porcentaje del ancho del elemento */
+  /*Modelo de caja*/
+  width: 2.7rem;
   height: 0.5rem;
 
-  /* Fondo y bordes */
+  /*Fondo y bordes*/
   background: rgba(255, 255, 255, 0.6);
 
-  /* Efectos y animaciones */
+  /*Efectos y animaciones*/
   transition: transform 0.3s;
   transform: translate(-50%, -50%) scale(0);
+
 }
 
-.slider-pagi__elem.active:before,
-.slider-pagi__elem:hover:before {
-  /* Efectos y animaciones */
+.slider-pagi__elem.active:before, .slider-pagi__elem:hover:before {
+
+  /*Efectos y animaciones*/
   transform: translate(-50%, -50%) scale(1);
+
+}
+
+@media screen and (max-width: 768px) {
+  .slider-pagi {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    transform: translateX(0);
+  }
+
+  .slider-pagi__elem {
+    margin: 0 0.3rem;
+  }
 }
 
 /*------------------------------------------------------------*/
