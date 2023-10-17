@@ -1546,8 +1546,8 @@ iframe {
   align-items: center; 
 
   /*Modelo de caja*/
-  height: 70px;
-  width: 70px;
+  height: 90px;
+  width: 90px;
 
   /*Fondo y bordes*/
   background-color: #fff;
@@ -1558,8 +1558,8 @@ iframe {
 .contact-info-icon i {
 
   /*Tipografía y colores*/
-  font-size: 30px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 90px;
   color: #1A1E25;
 
 }
