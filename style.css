@@ -1597,7 +1597,7 @@ iframe {
 
 @media screen and (max-width: 1440px) {
   iframe {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     width: 100%;
     border: none;
   }
@@ -1605,19 +1605,17 @@ iframe {
 
 @media screen and (max-width: 1440px) {
   .contact-header h2 {
-    font-size: 2.5em;
-    max-width: 10%;
+    font-size: 2em;
     padding-bottom: 10px;
   }
   
   .contact-header p {
-    max-width: 10%;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .contact-row {
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
 
   .contact-info {
@@ -1625,21 +1623,21 @@ iframe {
   }
 
   .contact-info-content h4 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .contact-info-content p {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   
   .contact-info-icon {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
   }
 
   .contact-info-icon i {
-    font-size: 30px;
-    line-height: 70px;
+    font-size: 20px;
+    line-height: 50px;
   }
 
 }
