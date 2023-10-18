@@ -154,12 +154,13 @@ body {
 
 @media (max-width: 768px) {
   .nav {
-    position: fixed;
-    top: 0;
+    display: none;
+    flex-direction: column;
     background-color: #00000091;
     width: 100%;
-    flex-direction: column;
-    transition: right 0.3s;
+    position: absolute;
+    top: 80px;
+    left: 0;
   }
 
   .nav.active {
