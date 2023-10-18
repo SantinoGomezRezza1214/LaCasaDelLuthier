@@ -40,70 +40,138 @@ body {
 /*------------------------------------------------------------*/
 /*------------------------------------------------------------*/
 
-  /* Estilo para el contenedor del menú */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #333; /* Cambia el color de fondo a tu preferencia */
+#navbar {
+
+  /*Posicionamiento*/
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 0;
+  z-index: 10;
+
+  /*Modelo de caja*/
+  width: 100%;
+  height: 80px;
+
+  /*Fondo y bordes*/
+  background-color: #00000091;
+
+  /*Efectos y animaciones*/
+  transition: top 0.8s;
+
+}
+
+#nav {
+
+  /*Posicionamiento*/
+  display: flex;
+  align-items: center;
+
+}
+
+.nav a {
+
+  /*Posicionamiento*/
+  display: flex;
+  align-items: center;
+
+  margin: 0 2em;
+
+  /*Tipografía y colores*/
+  font-size: 1rem;
+  text-decoration: none;
+  color: #ddd;
+
+}
+
+.nav a:hover {
+
+  /*Tipografía y colores*/
+  font-size: 18px;
+  color: #c73a3a;
+
+  /*Efectos y animaciones*/
+  transition: 200ms;
+
+}
+
+.contacto-button {
+
+  /*Modelo de caja*/
+  padding: 15px 25px;
+
+  /*Tipografía y colores*/
+  color: #fff;
+
+  /*Fondo y bordes*/
+  border: 1px solid rgb(192, 192, 192);
+  background-color: #7a1d1d;
+  border-radius: 3px;
+
+}
+
+.contacto-button:hover {
+
+  /*Tipografía y colores*/
+  color: #fff;
+
+  /*Fondo y bordes*/
+  background: rgba(90, 9, 9, 0.878);
+  border: 1px solid #ffffff;
+
+  /*Efectos y animaciones*/
+  cursor: pointer;
+
+}
+
+.menu-toggle {
+
+  /*Posicionamiento*/
+  display: none;
+  flex-direction: column-reverse;
+
+  /*Efectos y animaciones*/
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+
+}
+
+.bar {
+
+  /*Modelo de caja*/
+  width: 25px;
+  height: 3px;
+  margin: 3px 0;
+
+  /*Fondo y bordes*/
+  background-color: #ddd;
+
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: #00000091;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
   }
 
-  /* Estilo para el menú toggle en pantallas pequeñas */
-  @media (max-width: 768px) {
-    .menu-toggle {
-      display: block; /* Mostrar el menú toggle en pantallas pequeñas */
-      cursor: pointer;
-    }
-
-    .nav {
-      display: none; /* Ocultar el menú de navegación en pantallas pequeñas */
-    }
-  }
-
-  .menu-toggle .bar {
-    width: 30px;
-    height: 3px;
-    background-color: #fff; /* Cambia el color de las barras a tu preferencia */
-    margin: 4px 0;
-  }
-
-  /* Estilo para los enlaces de navegación */
   .nav a {
-    text-decoration: none;
-    color: #fff; /* Cambia el color del texto a tu preferencia */
-    margin: 0 10px;
+    padding: 10px;
   }
 
-  .nav a:hover {
-    text-decoration: underline; /* Subrayar enlaces al pasar el cursor sobre ellos */
+  .nav.active {
+    display: flex;
   }
 
-  /* Estilo para el botón de contacto */
-  .contacto-button {
-    background-color: #fff; /* Cambia el color de fondo a tu preferencia */
-    color: #333; /* Cambia el color del texto a tu preferencia */
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+  .menu-toggle {
+    display: flex;
   }
-
-  /* Estilo para el contenedor de menú en dispositivos pequeños */
-  #slide_nav {
-    display: none; /* Ocultar el contenedor en pantallas grandes */
-  }
-
-  /* Estilo para el botón del menú en dispositivos pequeños */
-  #menu-toggle:checked + #nav #slide_nav {
-    display: block;
-  }
-
-  /* Estilo para los enlaces de navegación en dispositivos pequeños */
-  #menu-toggle:checked + #nav a {
-    display: block;
-    text-align: center;
-    padding: 10px 0;
-  }
+}
 
 /*------------------------------------------------------------*/
 
