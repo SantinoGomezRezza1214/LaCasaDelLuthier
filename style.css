@@ -115,6 +115,7 @@ body {
 
   /*Tipografía y colores*/
   color: #fff;
+  letter-spacing: 1px;
 
   /*Fondo y bordes*/
   background: rgba(90, 9, 9, 0.878);
@@ -164,6 +165,13 @@ body {
     padding: 10px;
   }
 
+  .nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
 }
 
 /*------------------------------------------------------------*/
