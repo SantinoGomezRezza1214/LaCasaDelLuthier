@@ -130,13 +130,13 @@ body {
 
   /*Posicionamiento*/
   position: absolute;
-  right: 40px;
-
+  right: 10px;
   display: none;
   flex-direction: column-reverse;
 
   /*Efectos y animaciones*/
   cursor: pointer;
+  transition: transform 0.3s ease; 
 
 }
 
