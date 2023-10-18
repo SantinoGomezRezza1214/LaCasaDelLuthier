@@ -85,12 +85,6 @@ body {
 
 }
 
-.nav.active a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .nav a:hover {
 
   /*Tipografía y colores*/
@@ -170,18 +164,16 @@ body {
     transition: right 0.3s;
   }
 
-  .nav a {
-    padding: 10px;
-  }
-
   .nav.active {
     right: 0;
   }
 
-  .nav.active a {
+  .nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50%;
+    height: 100%; 
   }
 
   .menu-toggle {
