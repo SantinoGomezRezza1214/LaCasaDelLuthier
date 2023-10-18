@@ -1631,13 +1631,13 @@ iframe {
   }
   
   .contact-info-icon {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 
   .contact-info-icon i {
-    font-size: 35px;
-    line-height: 80px;
+    font-size: 30px;
+    line-height: 70px;
   }
 
 }
