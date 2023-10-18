@@ -62,7 +62,7 @@ body {
 
 }
 
-#nav {
+.nav {
 
   /*Posicionamiento*/
   display: flex;
