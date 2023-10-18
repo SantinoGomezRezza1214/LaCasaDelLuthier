@@ -1597,7 +1597,7 @@ iframe {
 
 @media screen and (max-width: 1440px) {
   iframe {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 100%;
     border: none;
   }
