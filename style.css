@@ -163,15 +163,12 @@ body {
     left: 0;
   }
 
-  .nav.active {
-    right: 0;
+  .nav a {
+    padding: 10px;
   }
 
-  .nav a {
+  .nav.active {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%; 
   }
 
   .menu-toggle {

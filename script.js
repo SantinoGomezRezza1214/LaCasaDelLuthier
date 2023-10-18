@@ -1,12 +1,10 @@
-  // Obtén el botón de menú y el menú deslizante
-  const menuToggle = document.querySelector('#menu-toggle');
-  const nav = document.querySelector('#nav');
+const menuToggle = document.getElementById('menu-toggle');
+const nav = document.getElementById('nav');
 
-  // Agrega un evento de clic al botón de menú
-  menuToggle.addEventListener('click', function() {
-    // Alternar la clase 'active' en el menú
-    nav.classList.toggle('active');
-  });
+menuToggle.addEventListener('click', () => {
+  nav.classList.toggle('active');
+});
+
 
 //----------------------------------------------------------------------------------------//
 
