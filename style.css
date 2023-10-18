@@ -127,13 +127,17 @@ body {
 }
 
 .menu-toggle {
-  /* Posicionamiento */
+
+  /*Posicionamiento*/
   position: absolute;
   right: 40px;
-  display: block; /* Cambiado a "block" o "flex" para que el botón sea visible */
+
+  display: none;
   flex-direction: column-reverse;
-  /* Efectos y animaciones */
+
+  /*Efectos y animaciones*/
   cursor: pointer;
+
 }
 
 .bar {
