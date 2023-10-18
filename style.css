@@ -1631,6 +1631,55 @@ iframe {
   }
   
   .contact-info-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contact-info-icon i {
+    font-size: 30px;
+    line-height: 80px;
+  }
+
+}
+
+/*------------------------------------------------------------*/
+
+@media screen and (max-width: 738px) {
+  iframe {
+    margin-bottom: 50px;
+    width: 100%;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .contact-header h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+  
+  .contact-header p {
+    font-size: 1em;
+  }
+
+  .contact-row {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .contact-info-content h4 {
+    font-size: 1em;
+  }
+
+  .contact-info-content p {
+    font-size: 1em;
+  }
+  
+  .contact-info-icon {
     width: 50px;
     height: 50px;
   }
