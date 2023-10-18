@@ -130,7 +130,7 @@ body {
 
   /*Posicionamiento*/
   position: absolute;
-  right: 10px;
+  right: 40px;
   display: none;
   flex-direction: column-reverse;
 
@@ -161,6 +161,7 @@ body {
     position: absolute;
     top: 80px;
     left: 0;
+    transition: top 0.3s;
   }
 
   .nav a {
