@@ -158,7 +158,6 @@ body {
     flex-direction: row; /* Cambia a "row" */
     background-color: #00000091;
     width: 100%;
-    position: fixed;
     top: 0;
     right: -100%; /* Inicialmente oculto en el lado derecho */
     transition: right 0.3s; /* Agrega una transición suave */
