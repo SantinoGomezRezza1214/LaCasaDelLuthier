@@ -1,22 +1,12 @@
-// Obtén el botón de menú y el menú deslizante
-const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav');
+  // Obtén el botón de menú y el menú deslizante
+  const menuToggle = document.querySelector('#menu-toggle');
+  const nav = document.querySelector('#nav');
 
-// Agrega un evento de clic al botón de menú
-menuToggle.addEventListener('click', function() {
-  // Alternar la clase 'active' en el menú
-  nav.classList.toggle('active');
-});
-
-// Agrega un evento de clic a los elementos de enlace en el menú (para cerrar el menú si se hace clic en un enlace)
-const navLinks = document.querySelectorAll('.nav a');
-navLinks.forEach(link => {
-  link.addEventListener('click', function() {
-    // Cierra el menú
-    nav.classList.remove('active');
+  // Agrega un evento de clic al botón de menú
+  menuToggle.addEventListener('click', function() {
+    // Alternar la clase 'active' en el menú
+    nav.classList.toggle('active');
   });
-});
-
 
 //----------------------------------------------------------------------------------------//
 

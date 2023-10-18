@@ -154,14 +154,14 @@ body {
 
 @media (max-width: 768px) {
   .nav {
-    display: none;
-    flex-direction: row; /* Cambia a "row" */
-    background-color: #00000091;
-    width: 100%;
     position: fixed;
     top: 0;
-    right: -100%; /* Inicialmente oculto en el lado derecho */
-    transition: right 0.3s; /* Agrega una transición suave */
+    right: -100%;
+    background-color: #00000091;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    transition: right 0.3s;
   }
 
   .nav a {
